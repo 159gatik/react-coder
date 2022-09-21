@@ -9,3 +9,8 @@
   color: white;
   margin-left: 40px;
 }
+
+.imagen {
+  margin-left: 25px;
+  max-width: 20em;
+}
