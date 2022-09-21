@@ -4,7 +4,7 @@ import Dropdown from './Dropdown.jsx';
 
 const Secciones = () => {
 
-    const ListCategory = ["Hombre", "Mujer", "Niño"]
+    const ListCategory = ["bicicletas", "accesorios", "indumentaria"]
     return (
         <>
             <li className="nav-item">
@@ -12,13 +12,15 @@ const Secciones = () => {
                     <span className="visually-hidden">(current)</span>
                 </a>
             </li>
-
             <Dropdown lista={ListCategory}></Dropdown>
             <li className="nav-item">
                 <a className="nav-link" href="#">ofertas</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">Sobre nosotros</a>
+                <a className="nav-link" href="#">nosotros</a>
+            </li>
+            <li className="nav-item">
+                <a className="nav-link" href="#">contacto</a>
             </li>
         </>
     );
