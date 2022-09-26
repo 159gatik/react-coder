@@ -2,14 +2,14 @@
 
 import React from 'react';
 import Navbar from './components/Navbar/Navbar.jsx';
-import './App.css'
-import Cards from './components/Containers/Card/Cards.jsx';
+import './styles/App.css'
+import ItemListContainer from './components/Containers/Card/ItemListContainer.jsx';
 
 const App = () => {
     return (
         <>
             <Navbar />
-            <Cards />
+            <ItemListContainer />
         </>
     );
 }

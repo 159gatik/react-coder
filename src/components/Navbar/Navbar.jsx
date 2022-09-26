@@ -2,8 +2,8 @@
 
 import React from 'react';
 import Buttom from './Buttom';
-import Form from './Form';
-import Secciones from './Secciones'
+import Form from './layouts/Form';
+import Secciones from './layouts/Secciones'
 import Cartwidget from './Cartwidget.jsx';
 
 

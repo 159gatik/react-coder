@@ -4,9 +4,10 @@
   background-color: #515052;
 }
 
-.iconCart {
+.iconCart button {
   font-size: 20px;
   color: white;
+  background-color: none;
   margin-left: 40px;
 }
 
